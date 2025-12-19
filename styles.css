@@ -1,0 +1,29 @@
+.hidden {
+  display: none;
+}
+
+body {
+  background: #008080;
+  font-family: "MS Sans Serif", sans-serif;
+}
+
+#window {
+  width: 500px;
+  margin: 100px auto;
+  background: #c0c0c0;
+  border: 2px solid #000;
+}
+
+.title-bar {
+  background: #000080;
+  color: white;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 10px;
+  background: #fff;
+  color: #000;
+}
