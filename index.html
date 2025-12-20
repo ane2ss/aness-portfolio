@@ -1,32 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Aness – Journal</title>
-
-  <link rel="stylesheet" href="boot.css" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-
+<!-- Root container -->
+<div id="app-root">
   <!-- Boot screen -->
-  <div id="boot">
-    <p>Starting Windows 98...</p>
-  </div>
+  <div id="boot-screen"></div>
 
-  <!-- Main window -->
-  <div id="window" class="hidden">
+  <!-- Floating window -->
+  <div class="window">
+    <!-- Title bar -->
     <div class="title-bar">
-      <span>Aness.txt</span>
-      <div class="buttons">✕</div>
+      <div class="title-bar-text">Your Name</div>
+      <div class="title-bar-controls">
+        <button aria-label="Minimize"></button>
+        <button aria-label="Maximize"></button>
+        <button aria-label="Close"></button>
+      </div>
     </div>
 
-    <div class="content">
-      <h1>Journal</h1>
-      <p>Day 1 – Building my retro portfolio.</p>
+    <!-- Window content -->
+    <div class="window-content">
+      <!-- Home view and journal sections go here -->
     </div>
   </div>
-
-  <script src="app.js"></script>
-</body>
-</html>
+</div>
